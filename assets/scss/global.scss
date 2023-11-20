@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'TT Commons';
+    src: url('/static/fonts/TTCommons-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'TT Commons';
+    font-weight: 400;
+    color: rgba(16, 16, 16, 1);
+}
+
+ul > li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    text-transform: none;
+    list-style: none;
+    color: rgba(16, 16, 16, 1);;
+}
+
+.container {
+    margin: 0 7.78%;
+}
